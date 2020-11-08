@@ -12,7 +12,7 @@ Module FortuneCookie
 
     Sub Main()
         Dim randomNumber As Integer
-        Randomize()
+        Randomize() ' This should be in the random number method - TJR
         Dim quit As String
 
         Do
